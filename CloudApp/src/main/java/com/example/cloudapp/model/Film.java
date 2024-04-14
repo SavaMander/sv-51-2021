@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Value;
 import java.util.UUID;
 
 @Entity
+@Table(name = "sv_51_2021")
 public class Film {
     @Id
     @Column(name = "id")
